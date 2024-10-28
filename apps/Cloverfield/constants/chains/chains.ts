@@ -9,6 +9,8 @@ import {
   mantle,
   blast,
   Chain,
+  // iota,
+  // mode,
 } from "wagmi/chains";
 import { FrontEndsName } from "./addresses";
 
@@ -21,6 +23,8 @@ const supportedWagmiChain = {
   [SupportedChainId.MAINNET]: mainnet,
   [SupportedChainId.MANTLE]: mantle,
   [SupportedChainId.BLAST]: blast,
+  // [SupportedChainId.IOTA]: iota,
+  // [SupportedChainId.MODE]: mode,
 };
 
 function getWagmiChain(supportChainList: number[]): Chain[] {

@@ -460,6 +460,50 @@ export const ArbitrumChainCloverfieldFE: ChainType = {
     "https://api.studio.thegraph.com/query/62454/fundingrate_arbitrum_8_2/version/latest",
 };
 
+// export const ModeChainCloverfieldFE: ChainType ={
+//   COLLATERAL_SYMBOL: "",
+//   COLLATERAL_DECIMALS: ,
+//   COLLATERAL_ADDRESS: "",
+
+//   DIAMOND_ADDRESS: "",
+//   MULTI_ACCOUNT_ADDRESS: "",
+//   PARTY_B_WHITELIST: "",
+//   SIGNATURE_STORE_ADDRESS: "",
+//   TP_SL_WALLET_ADDRESS: "",
+
+//   MULTICALL3_ADDRESS: "",
+//   USDC_ADDRESS: "",
+//   WRAPPED_NATIVE_ADDRESS: "",
+//   ANALYTICS_SUBGRAPH_ADDRESS:
+//     "",
+//   ORDER_HISTORY_SUBGRAPH_ADDRESS:
+//     "",
+//   FUNDING_RATE_SUBGRAPH_ADDRESS:
+//     "",
+// };
+
+// export const IotaChainCloverfieldFE: ChainType ={
+//   COLLATERAL_SYMBOL: "",
+//   COLLATERAL_DECIMALS: ,
+//   COLLATERAL_ADDRESS: "",
+
+//   DIAMOND_ADDRESS: "",
+//   MULTI_ACCOUNT_ADDRESS: "",
+//   PARTY_B_WHITELIST: "",
+//   SIGNATURE_STORE_ADDRESS: "",
+//   TP_SL_WALLET_ADDRESS: "",
+
+//   MULTICALL3_ADDRESS: "",
+//   USDC_ADDRESS: "",
+//   WRAPPED_NATIVE_ADDRESS: "",
+//   ANALYTICS_SUBGRAPH_ADDRESS:
+//     "",
+//   ORDER_HISTORY_SUBGRAPH_ADDRESS:
+//     "",
+//   FUNDING_RATE_SUBGRAPH_ADDRESS:
+//     "",
+// };
+
 export const contractInfo: {
   [chainId: number]: { [name: string]: ChainType };
 } = {
@@ -497,4 +541,10 @@ export const contractInfo: {
     [FrontEndsName.CORE]: BlastChainCoreFE,
     [FrontEndsName.INTENT_X]: BlastChainIntentXFE,
   },
+  // [SupportedChainId.MODE]: {
+  //   [FrontEndsName.CLOVERFIELD]: ModeChainCloverfieldFE,
+  // },
+  // [SupportedChainId.IOTA]: {
+  //   [FrontEndsName.CLOVERFIELD]: IotaChainCloverfieldFE,
+  // },
 };

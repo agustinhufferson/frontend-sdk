@@ -297,6 +297,7 @@ export const DeveloperModeTitle = ({
         } #${tries}`
       );
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tries, setExpertMode]);
 
   const handleAccountOverviewClick = () => {

@@ -160,4 +160,30 @@ export const ChainInfo: { [chainId: number]: Info } = {
     blockExplorerUrl: "https://blastscan.io/",
     WRAPPED_NATIVE_ADDRESS: "0x4300000000000000000000000000000000000004",
   },
+  // [SupportedChainId.MODE]: {
+  //   chainId: "",
+  //   chainName: "",
+  //   label: "",
+  //   nativeCurrency: {
+  //     name: "",
+  //     symbol: "",
+  //     decimals: ,
+  //   },
+  //   rpcUrl: "",
+  //   blockExplorerUrl: "",
+  //   WRAPPED_NATIVE_ADDRESS: "",
+  // },
+  // [SupportedChainId.IOTA]: {
+  //   chainId: "",
+  //   chainName: "",
+  //   label: "",
+  //   nativeCurrency: {
+  //     name: "",
+  //     symbol: "",
+  //     decimals: ,
+  //   },
+  //   rpcUrl: "",
+  //   blockExplorerUrl: "",
+  //   WRAPPED_NATIVE_ADDRESS: "",
+  // },
 };
